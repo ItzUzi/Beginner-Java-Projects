@@ -17,7 +17,8 @@ public class Game {
 
         System.out.println("\t**********************************" + "\n"
                         + "\t  WELCOME TO THE BLACK JACK TABLE" + "\n" +
-                         "\t**********************************");
+                         "\t**********************************" + "\n" + 
+                         "\n" + "Rules: Dealer stands on soft 17!");
 
         do {
             counter = 0;
@@ -93,7 +94,7 @@ public class Game {
 
                 System.out.println("(Dealer has: " + dealer.calculateHandValue() + ")" + "\n");
 
-                while(dealer.calculateHandValue() < player.calculateHandValue()){
+                while(dealer.calculateHandValue() <= 17){
             
                     dealer.addCard(cardDeck.drawCard(counter++));
                     dealer.showCard();
