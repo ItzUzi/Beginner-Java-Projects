@@ -18,7 +18,8 @@ public class Game {
         System.out.println("\t**********************************" + "\n"
                         + "\t  WELCOME TO THE BLACK JACK TABLE" + "\n" +
                          "\t**********************************" + "\n" + 
-                         "\n" + "Rules: Dealer stands on soft 17!");
+                         "\n" + "Rules: Dealer stands on soft 17!" + "\n" + 
+                         "       Dealer wins on ties!");
 
         do {
             counter = 0;
