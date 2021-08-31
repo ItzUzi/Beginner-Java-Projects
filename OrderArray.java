@@ -1,6 +1,6 @@
 public class OrderArray {
     public static void main(String[] args) {
-        int[] array = {5,1,2,7,2,4,9,0,1};
+        int[] array = {5,1,2,7,2,4,9,0,1,-5};
         int i = 0;
         int store;
         boolean check = true;
